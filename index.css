@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #8d77ab;
+}
+
+.sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(235, 220, 5);
+    position: absolute;
+    left: 1300px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 250px solid #3a3960;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+
+
+.chimney {
+    height: 70px;
+    width: 50px;
+    background: #3a3960;
+    position: relative;
+    left: -150px;
+    top: 115px;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background: #5e686d;
+    top: 349px;
+    left: 250px;   
+}
+
+.window {
+    width: 40px;
+    height: 40px;
+    background: #faffc5;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.door {
+    height: 100px;
+    width: 80px;
+    background: #3a3960;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.door:hover {
+    background: red;
+}
+
+.doorknob {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.doorknob:hover{
+    background: yellow;
+}
+
+.tree {
+    height: 150px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    top: 250px;
+    left: 800px;
+}
+
+.leaves-1 {
+    height: 0;
+    width: 0;
+    border-bottom: 120px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: -120px;
+    left: -90px;
+}
+
+.leaves-2 {
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid green;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    top: -170px;
+    left: -50px;
+}
